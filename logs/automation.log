@@ -1,0 +1,872 @@
+01:33:37.688 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+01:33:48.815 [main] INFO  com.api.test.TestUserService - singleUser response log: 
+io.restassured.internal.ValidatableResponseImpl@1af4955e
+
+01:33:48.985 [main] INFO  com.api.test.TestUserService - Status Code: 200
+01:33:49.021 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+01:33:49.022 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+01:33:49.053 [main] INFO  com.api.test.TestUserService - Response Time: 5590 ms
+01:33:49.054 [main] WARN  com.api.test.TestUserService - Response time is high: 5590 ms
+01:38:10.909 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+01:38:23.439 [main] INFO  com.api.test.TestUserService - singleUser response:
+ {
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "Lovers Ln",
+        "number": 7267,
+        "zipcode": "12926-3874"
+    },
+    "id": 2,
+    "email": "morrison@gmail.com",
+    "username": "mor_2314",
+    "password": "83r5^_",
+    "name": {
+        "firstname": "david",
+        "lastname": "morrison"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+
+01:38:23.500 [main] INFO  com.api.test.TestUserService - singleUser response log: 
+io.restassured.internal.ValidatableResponseImpl@1af4955e
+
+01:38:23.653 [main] INFO  com.api.test.TestUserService - Status Code: 200
+01:38:23.681 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+01:38:23.682 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+01:38:23.691 [main] INFO  com.api.test.TestUserService - Response Time: 6180 ms
+01:38:23.693 [main] WARN  com.api.test.TestUserService - Response time is high: 6180 ms
+01:39:48.296 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+01:39:58.594 [main] INFO  com.api.test.TestUserService - singleUser response:
+ {
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "Lovers Ln",
+        "number": 7267,
+        "zipcode": "12926-3874"
+    },
+    "id": 2,
+    "email": "morrison@gmail.com",
+    "username": "mor_2314",
+    "password": "83r5^_",
+    "name": {
+        "firstname": "david",
+        "lastname": "morrison"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+
+01:39:58.691 [main] INFO  com.api.test.TestUserService - singleUser response log: io.restassured.internal.ValidatableResponseImpl@1af4955e
+
+01:39:58.832 [main] INFO  com.api.test.TestUserService - Status Code: 200
+01:39:58.849 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+01:39:58.850 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+01:39:58.859 [main] INFO  com.api.test.TestUserService - Response Time: 4768 ms
+01:39:58.860 [main] WARN  com.api.test.TestUserService - Response time is high: 4768 ms
+01:39:58.861 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+01:46:52.448 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+01:47:04.862 [main] INFO  com.api.test.TestUserService - singleUser response:
+ {
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "Lovers Ln",
+        "number": 7267,
+        "zipcode": "12926-3874"
+    },
+    "id": 2,
+    "email": "morrison@gmail.com",
+    "username": "mor_2314",
+    "password": "83r5^_",
+    "name": {
+        "firstname": "david",
+        "lastname": "morrison"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+
+01:47:05.032 [main] INFO  com.api.test.TestUserService - singleUser response log: io.restassured.internal.ValidatableResponseImpl@1af4955e
+
+01:47:05.316 [main] INFO  com.api.test.TestUserService - Status Code: 200
+01:52:15.841 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+01:52:26.385 [main] INFO  com.api.test.TestUserService - allUsers response:
+ [
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "new road",
+            "number": 7682,
+            "zipcode": "12926-3874"
+        },
+        "id": 1,
+        "email": "john@gmail.com",
+        "username": "johnd",
+        "password": "m38rmF$",
+        "name": {
+            "firstname": "john",
+            "lastname": "doe"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "Lovers Ln",
+            "number": 7267,
+            "zipcode": "12926-3874"
+        },
+        "id": 2,
+        "email": "morrison@gmail.com",
+        "username": "mor_2314",
+        "password": "83r5^_",
+        "name": {
+            "firstname": "david",
+            "lastname": "morrison"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-30.1310"
+            },
+            "city": "Cullman",
+            "street": "Frances Ct",
+            "number": 86,
+            "zipcode": "29567-1452"
+        },
+        "id": 3,
+        "email": "kevin@gmail.com",
+        "username": "kevinryan",
+        "password": "kev02937@",
+        "name": {
+            "firstname": "kevin",
+            "lastname": "ryan"
+        },
+        "phone": "1-567-094-1345",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3467",
+                "long": "-20.1310"
+            },
+            "city": "San Antonio",
+            "street": "Hunters Creek Dr",
+            "number": 6454,
+            "zipcode": "98234-1734"
+        },
+        "id": 4,
+        "email": "don@gmail.com",
+        "username": "donero",
+        "password": "ewedon",
+        "name": {
+            "firstname": "don",
+            "lastname": "romer"
+        },
+        "phone": "1-765-789-6734",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-40.1310"
+            },
+            "city": "san Antonio",
+            "street": "adams St",
+            "number": 245,
+            "zipcode": "80796-1234"
+        },
+        "id": 5,
+        "email": "derek@gmail.com",
+        "username": "derek",
+        "password": "jklg*_56",
+        "name": {
+            "firstname": "derek",
+            "lastname": "powell"
+        },
+        "phone": "1-956-001-1945",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "20.1677",
+                "long": "-10.6789"
+            },
+            "city": "el paso",
+            "street": "prospect st",
+            "number": 124,
+            "zipcode": "12346-0456"
+        },
+        "id": 6,
+        "email": "david_r@gmail.com",
+        "username": "david_r",
+        "password": "3478*#54",
+        "name": {
+            "firstname": "david",
+            "lastname": "russell"
+        },
+        "phone": "1-678-345-9856",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "10.3456",
+                "long": "20.6419"
+            },
+            "city": "fresno",
+            "street": "saddle st",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 7,
+        "email": "miriam@gmail.com",
+        "username": "snyder",
+        "password": "f238&@*$",
+        "name": {
+            "firstname": "miriam",
+            "lastname": "snyder"
+        },
+        "phone": "1-123-943-0563",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3456",
+                "long": "10.6419"
+            },
+            "city": "mesa",
+            "street": "vally view ln",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 8,
+        "email": "william@gmail.com",
+        "username": "hopkins",
+        "password": "William56$hj",
+        "name": {
+            "firstname": "william",
+            "lastname": "hopkins"
+        },
+        "phone": "1-478-001-0890",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.12456",
+                "long": "20.5419"
+            },
+            "city": "miami",
+            "street": "avondale ave",
+            "number": 345,
+            "zipcode": "96378-0245"
+        },
+        "id": 9,
+        "email": "kate@gmail.com",
+        "username": "kate_h",
+        "password": "kfejk@*_",
+        "name": {
+            "firstname": "kate",
+            "lastname": "hale"
+        },
+        "phone": "1-678-456-1934",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "30.24788",
+                "long": "-20.545419"
+            },
+            "city": "fort wayne",
+            "street": "oak lawn ave",
+            "number": 526,
+            "zipcode": "10256-4532"
+        },
+        "id": 10,
+        "email": "jimmie@gmail.com",
+        "username": "jimmie_k",
+        "password": "klein*#%*",
+        "name": {
+            "firstname": "jimmie",
+            "lastname": "klein"
+        },
+        "phone": "1-104-001-4567",
+        "__v": 0
+    }
+]
+
+01:52:26.507 [main] INFO  com.api.test.TestUserService - allUsers response log: 
+io.restassured.internal.ValidatableResponseImpl@543d5863
+
+01:52:26.687 [main] INFO  com.api.test.TestUserService - Status Code: 200
+01:52:26.720 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+01:52:26.725 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+01:52:26.753 [main] INFO  com.api.test.TestUserService - Response Time: 4672 ms
+01:52:26.755 [main] WARN  com.api.test.TestUserService - Response time is high: 4672 ms
+01:52:26.758 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+01:52:27.443 [main] INFO  com.api.test.TestUserService - singleUser response:
+ {
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "Lovers Ln",
+        "number": 7267,
+        "zipcode": "12926-3874"
+    },
+    "id": 2,
+    "email": "morrison@gmail.com",
+    "username": "mor_2314",
+    "password": "83r5^_",
+    "name": {
+        "firstname": "david",
+        "lastname": "morrison"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+
+01:52:27.448 [main] INFO  com.api.test.TestUserService - singleUser response log: io.restassured.internal.ValidatableResponseImpl@2eada095
+
+01:52:27.455 [main] INFO  com.api.test.TestUserService - Status Code: 200
+01:52:27.457 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+01:52:27.458 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+01:52:27.459 [main] INFO  com.api.test.TestUserService - Response Time: 558 ms
+01:52:27.459 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+01:57:24.751 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+01:57:24.973 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+01:57:25.052 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testAllUsers
+01:57:36.588 [main] INFO  com.api.test.TestUserService - allUsers response:
+ [
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "new road",
+            "number": 7682,
+            "zipcode": "12926-3874"
+        },
+        "id": 1,
+        "email": "john@gmail.com",
+        "username": "johnd",
+        "password": "m38rmF$",
+        "name": {
+            "firstname": "john",
+            "lastname": "doe"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "-37.3159",
+                "long": "81.1496"
+            },
+            "city": "kilcoole",
+            "street": "Lovers Ln",
+            "number": 7267,
+            "zipcode": "12926-3874"
+        },
+        "id": 2,
+        "email": "morrison@gmail.com",
+        "username": "mor_2314",
+        "password": "83r5^_",
+        "name": {
+            "firstname": "david",
+            "lastname": "morrison"
+        },
+        "phone": "1-570-236-7033",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-30.1310"
+            },
+            "city": "Cullman",
+            "street": "Frances Ct",
+            "number": 86,
+            "zipcode": "29567-1452"
+        },
+        "id": 3,
+        "email": "kevin@gmail.com",
+        "username": "kevinryan",
+        "password": "kev02937@",
+        "name": {
+            "firstname": "kevin",
+            "lastname": "ryan"
+        },
+        "phone": "1-567-094-1345",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3467",
+                "long": "-20.1310"
+            },
+            "city": "San Antonio",
+            "street": "Hunters Creek Dr",
+            "number": 6454,
+            "zipcode": "98234-1734"
+        },
+        "id": 4,
+        "email": "don@gmail.com",
+        "username": "donero",
+        "password": "ewedon",
+        "name": {
+            "firstname": "don",
+            "lastname": "romer"
+        },
+        "phone": "1-765-789-6734",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.3467",
+                "long": "-40.1310"
+            },
+            "city": "san Antonio",
+            "street": "adams St",
+            "number": 245,
+            "zipcode": "80796-1234"
+        },
+        "id": 5,
+        "email": "derek@gmail.com",
+        "username": "derek",
+        "password": "jklg*_56",
+        "name": {
+            "firstname": "derek",
+            "lastname": "powell"
+        },
+        "phone": "1-956-001-1945",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "20.1677",
+                "long": "-10.6789"
+            },
+            "city": "el paso",
+            "street": "prospect st",
+            "number": 124,
+            "zipcode": "12346-0456"
+        },
+        "id": 6,
+        "email": "david_r@gmail.com",
+        "username": "david_r",
+        "password": "3478*#54",
+        "name": {
+            "firstname": "david",
+            "lastname": "russell"
+        },
+        "phone": "1-678-345-9856",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "10.3456",
+                "long": "20.6419"
+            },
+            "city": "fresno",
+            "street": "saddle st",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 7,
+        "email": "miriam@gmail.com",
+        "username": "snyder",
+        "password": "f238&@*$",
+        "name": {
+            "firstname": "miriam",
+            "lastname": "snyder"
+        },
+        "phone": "1-123-943-0563",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "50.3456",
+                "long": "10.6419"
+            },
+            "city": "mesa",
+            "street": "vally view ln",
+            "number": 1342,
+            "zipcode": "96378-0245"
+        },
+        "id": 8,
+        "email": "william@gmail.com",
+        "username": "hopkins",
+        "password": "William56$hj",
+        "name": {
+            "firstname": "william",
+            "lastname": "hopkins"
+        },
+        "phone": "1-478-001-0890",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "40.12456",
+                "long": "20.5419"
+            },
+            "city": "miami",
+            "street": "avondale ave",
+            "number": 345,
+            "zipcode": "96378-0245"
+        },
+        "id": 9,
+        "email": "kate@gmail.com",
+        "username": "kate_h",
+        "password": "kfejk@*_",
+        "name": {
+            "firstname": "kate",
+            "lastname": "hale"
+        },
+        "phone": "1-678-456-1934",
+        "__v": 0
+    },
+    {
+        "address": {
+            "geolocation": {
+                "lat": "30.24788",
+                "long": "-20.545419"
+            },
+            "city": "fort wayne",
+            "street": "oak lawn ave",
+            "number": 526,
+            "zipcode": "10256-4532"
+        },
+        "id": 10,
+        "email": "jimmie@gmail.com",
+        "username": "jimmie_k",
+        "password": "klein*#%*",
+        "name": {
+            "firstname": "jimmie",
+            "lastname": "klein"
+        },
+        "phone": "1-104-001-4567",
+        "__v": 0
+    }
+]
+
+01:57:36.800 [main] INFO  com.api.test.TestUserService - allUsers response log: 
+io.restassured.internal.ValidatableResponseImpl@160b4809
+
+01:57:36.982 [main] INFO  com.api.test.TestUserService - Status Code: 200
+01:57:37.006 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+01:57:37.007 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+01:57:37.013 [main] INFO  com.api.test.TestUserService - Response Time: 5221 ms
+01:57:37.014 [main] WARN  com.api.test.TestUserService - Response time is high: 5221 ms
+01:57:37.077 [main] ERROR com.api.utilities.TestListener - ❌ FAILED TEST: testAllUsers
+01:57:37.078 [main] ERROR com.api.utilities.TestListener - Reason: Response time exceeds 5000 ms ==> 5221 ms expected [true] but found [false]
+01:57:37.086 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testSingleUser
+01:57:37.661 [main] INFO  com.api.test.TestUserService - singleUser response:
+ {
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "Lovers Ln",
+        "number": 7267,
+        "zipcode": "12926-3874"
+    },
+    "id": 2,
+    "email": "morrison@gmail.com",
+    "username": "mor_2314",
+    "password": "83r5^_",
+    "name": {
+        "firstname": "david",
+        "lastname": "morrison"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+
+01:57:37.673 [main] INFO  com.api.test.TestUserService - singleUser response log: io.restassured.internal.ValidatableResponseImpl@498a612d
+
+01:57:37.678 [main] INFO  com.api.test.TestUserService - Status Code: 200
+01:57:37.679 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+01:57:37.680 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+01:57:37.681 [main] INFO  com.api.test.TestUserService - Response Time: 494 ms
+01:57:37.683 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+01:57:37.694 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testSingleUser
+01:57:37.941 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+01:58:49.199 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+01:58:49.444 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+01:58:49.518 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testAllUsers
+01:59:01.295 [main] INFO  com.api.test.TestUserService - allUsers response log: 
+io.restassured.internal.ValidatableResponseImpl@5efeb117
+
+01:59:01.457 [main] INFO  com.api.test.TestUserService - Status Code: 200
+01:59:01.481 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+01:59:01.482 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+01:59:01.497 [main] INFO  com.api.test.TestUserService - Response Time: 5522 ms
+01:59:01.498 [main] WARN  com.api.test.TestUserService - Response time is high: 5522 ms
+01:59:01.633 [main] ERROR com.api.utilities.TestListener - ❌ FAILED TEST: testAllUsers
+01:59:01.636 [main] ERROR com.api.utilities.TestListener - Reason: Response time exceeds 5000 ms ==> 5522 ms expected [true] but found [false]
+01:59:01.644 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testSingleUser
+01:59:02.451 [main] INFO  com.api.test.TestUserService - singleUser response log: io.restassured.internal.ValidatableResponseImpl@1b4872bc
+
+01:59:02.460 [main] INFO  com.api.test.TestUserService - Status Code: 200
+01:59:02.461 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+01:59:02.462 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+01:59:02.464 [main] INFO  com.api.test.TestUserService - Response Time: 655 ms
+01:59:02.469 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+01:59:02.498 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testSingleUser
+01:59:02.984 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+02:01:22.386 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+02:01:22.601 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+02:01:22.680 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testAllUsers
+02:01:34.122 [main] INFO  com.api.test.TestUserService - Status Code: 200
+02:01:34.142 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+02:01:34.143 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+02:01:34.151 [main] INFO  com.api.test.TestUserService - Response Time: 5314 ms
+02:01:34.152 [main] WARN  com.api.test.TestUserService - Response time is high: 5314 ms
+02:01:34.211 [main] ERROR com.api.utilities.TestListener - ❌ FAILED TEST: testAllUsers
+02:01:34.212 [main] ERROR com.api.utilities.TestListener - Reason: Response time exceeds 5000 ms ==> 5314 ms expected [true] but found [false]
+02:01:34.225 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testSingleUser
+02:01:34.844 [main] INFO  com.api.test.TestUserService - Status Code: 200
+02:01:34.845 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+02:01:34.845 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+02:01:34.846 [main] INFO  com.api.test.TestUserService - Response Time: 504 ms
+02:01:34.850 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+02:01:34.864 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testSingleUser
+02:01:35.137 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+02:05:38.681 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+02:05:38.908 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+02:05:38.999 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testAllUsers
+02:05:48.971 [main] INFO  com.api.test.TestUserService - Status Code: 200
+02:05:48.990 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+02:05:48.991 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+02:05:49.005 [main] INFO  com.api.test.TestUserService - Response Time: 4841 ms
+02:05:49.006 [main] WARN  com.api.test.TestUserService - Response time is high: 4841 ms
+02:05:49.008 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+02:05:49.035 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testAllUsers
+
+02:05:49.041 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testSingleUser
+02:05:49.602 [main] INFO  com.api.test.TestUserService - Status Code: 200
+02:05:49.603 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+02:05:49.604 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+02:05:49.606 [main] INFO  com.api.test.TestUserService - Response Time: 487 ms
+02:05:49.607 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+02:05:49.617 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testSingleUser
+
+02:05:49.759 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+02:36:24.760 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+02:36:35.614 [main] INFO  com.api.test.TestUserService - Status Code: 200
+02:36:35.657 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+02:36:35.664 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+02:36:35.690 [main] INFO  com.api.test.TestUserService - Response Time: 4571 ms
+02:36:35.691 [main] WARN  com.api.test.TestUserService - Response time is high: 4571 ms
+02:36:35.693 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+02:36:36.342 [main] INFO  com.api.test.TestUserService - Status Code: 200
+02:36:36.343 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+02:36:36.344 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+02:36:36.345 [main] INFO  com.api.test.TestUserService - Response Time: 545 ms
+02:36:36.346 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+02:38:14.817 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+02:38:15.046 [main] INFO  com.api.utilities.ExtentTestListener - ===== STARTING TEST: testAllUsers =====
+02:38:25.683 [main] INFO  com.api.test.TestUserService - Status Code: 200
+02:38:25.702 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+02:38:25.703 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+02:38:25.717 [main] INFO  com.api.test.TestUserService - Response Time: 5477 ms
+02:38:25.717 [main] WARN  com.api.test.TestUserService - Response time is high: 5477 ms
+02:38:25.753 [main] ERROR com.api.utilities.ExtentTestListener - ===== TEST FAILED: testAllUsers =====
+02:38:25.850 [main] INFO  com.api.utilities.ExtentTestListener - ===== STARTING TEST: testSingleUser =====
+02:38:26.776 [main] INFO  com.api.test.TestUserService - Status Code: 200
+02:38:26.777 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+02:38:26.778 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+02:38:26.779 [main] INFO  com.api.test.TestUserService - Response Time: 849 ms
+02:38:26.780 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+02:38:26.783 [main] INFO  com.api.utilities.ExtentTestListener - ===== TEST PASSED: testSingleUser =====
+02:38:26.801 [main] INFO  com.api.utilities.ExtentTestListener - ===== ALL TESTS FINISHED =====
+02:38:57.918 [main] INFO  com.api.utilities.ExtentTestListener - Latest Extent Report opened: C:\Users\Udayashankar\eclipse-workspace\DemoAPI\target\extent-report\extent-report-2026-01-02_02-38-12.html
+02:39:19.307 [main] INFO  com.api.utilities.ExtentTestListener - Dashboard Report opened: C:\Users\Udayashankar\eclipse-workspace\DemoAPI\target\extent-report\index.html
+03:39:03.754 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+03:39:04.134 [main] INFO  com.api.utilities.ExtentTestListener - ===== STARTING TEST: testAllUsers =====
+03:39:35.507 [main] INFO  com.api.test.TestUserService - Status Code: 200
+03:39:35.597 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+03:39:35.597 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+03:39:35.704 [main] INFO  com.api.test.TestUserService - Response Time: 12775 ms
+03:39:35.705 [main] WARN  com.api.test.TestUserService - Response time is high: 12775 ms
+03:39:35.734 [main] ERROR com.api.utilities.ExtentTestListener - ===== TEST FAILED: testAllUsers =====
+03:39:35.851 [main] INFO  com.api.utilities.ExtentTestListener - ===== STARTING TEST: testSingleUser =====
+03:39:36.831 [main] INFO  com.api.test.TestUserService - Status Code: 200
+03:39:36.832 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+03:39:36.845 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+03:39:36.847 [main] INFO  com.api.test.TestUserService - Response Time: 916 ms
+03:39:36.848 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+03:39:36.851 [main] INFO  com.api.utilities.ExtentTestListener - ===== TEST PASSED: testSingleUser =====
+03:39:36.892 [main] INFO  com.api.utilities.ExtentTestListener - ===== ALL TESTS FINISHED =====
+03:39:49.072 [main] INFO  com.api.utilities.ExtentTestListener - Latest Extent Report opened: C:\Users\Udayashankar\eclipse-workspace\DemoAPI\target\extent-report\extent-report-2026-01-02_03-38-57.html
+03:39:50.429 [main] INFO  com.api.utilities.ExtentTestListener - Dashboard Report opened: C:\Users\Udayashankar\eclipse-workspace\DemoAPI\target\extent-report\index.html
+12:57:59.210 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+12:58:12.043 [main] INFO  com.api.test.TestUserService - Status Code: 200
+12:58:12.244 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+12:58:12.245 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+12:58:12.267 [main] INFO  com.api.test.TestUserService - Response Time: 5514 ms
+12:58:12.268 [main] WARN  com.api.test.TestUserService - Response time is high: 5514 ms
+12:58:13.020 [main] INFO  com.api.test.TestUserService - Status Code: 200
+12:58:13.021 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+12:58:13.022 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+12:58:13.023 [main] INFO  com.api.test.TestUserService - Response Time: 585 ms
+12:58:13.024 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+15:19:03.947 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+15:19:07.230 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+15:20:26.153 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+15:20:27.304 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+15:20:31.655 [main] INFO  com.api.test.TestUserService - AddNewUserResponseData: AddNewUserResponseData [id=1, username=null, email=null, password=null]
+15:20:31.784 [main] INFO  com.api.test.TestUserService - Status Code: 201
+15:20:31.966 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 201 Created
+16:16:19.487 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+16:16:20.805 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+16:16:26.698 [main] INFO  com.api.test.TestUserService - AddNewUserResponseData: AddNewUserResponseData [id=1, username=null, email=null, password=null]
+16:16:26.771 [main] INFO  com.api.test.TestUserService - Status Code: 201
+16:16:26.796 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 201 Created
+16:16:26.796 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+16:16:26.831 [main] INFO  com.api.test.TestUserService - Response Time: 2870 ms
+16:16:26.832 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+16:16:26.832 [main] INFO  com.api.test.TestUserService - User ID is generated: 1
+16:18:35.395 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+16:18:36.774 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+16:18:41.300 [main] INFO  com.api.test.TestUserService - AddNewUserResponseData: AddNewUserResponseData [id=11, username=null, email=null, password=null]
+16:18:41.381 [main] INFO  com.api.test.TestUserService - Status Code: 201
+16:18:41.389 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 201 Created
+16:18:41.389 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+16:18:41.396 [main] INFO  com.api.test.TestUserService - Response Time: 2200 ms
+16:18:41.398 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+16:18:41.401 [main] INFO  com.api.test.TestUserService - User ID is generated: 11
+16:18:41.992 [main] INFO  com.api.test.TestUserService - Status Code: 200
+16:18:41.992 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+16:18:41.993 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+16:18:41.993 [main] INFO  com.api.test.TestUserService - Response Time: 537 ms
+16:18:41.994 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+16:18:42.433 [main] INFO  com.api.test.TestUserService - Status Code: 200
+16:18:42.434 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+16:18:42.434 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+16:18:42.435 [main] INFO  com.api.test.TestUserService - Response Time: 407 ms
+16:18:42.436 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+16:59:33.432 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+16:59:33.575 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+16:59:33.603 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testAddNewUser
+16:59:34.744 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+16:59:39.230 [main] INFO  com.api.test.TestUserService - AddNewUserResponseData: AddNewUserResponseData [id=11, username=null, email=null, password=null]
+16:59:39.281 [main] INFO  com.api.test.TestUserService - Status Code: 201
+16:59:39.288 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 201 Created
+16:59:39.289 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+16:59:39.292 [main] INFO  com.api.test.TestUserService - Response Time: 2686 ms
+16:59:39.293 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+16:59:39.293 [main] INFO  com.api.test.TestUserService - User ID is generated: 11
+16:59:39.300 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testAddNewUser
+
+16:59:39.304 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testAllUsers
+16:59:39.861 [main] INFO  com.api.test.TestUserService - Status Code: 200
+16:59:39.862 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+16:59:39.862 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+16:59:39.864 [main] INFO  com.api.test.TestUserService - Response Time: 533 ms
+16:59:39.865 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+16:59:39.874 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testAllUsers
+
+16:59:39.878 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testSingleUser
+16:59:40.313 [main] INFO  com.api.test.TestUserService - Status Code: 200
+16:59:40.314 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+16:59:40.316 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+16:59:40.317 [main] INFO  com.api.test.TestUserService - Response Time: 415 ms
+16:59:40.318 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+16:59:40.326 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testSingleUser
+
+16:59:40.397 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+20:04:47.162 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+20:04:47.293 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+20:04:47.336 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testAddNewUser
+20:04:49.402 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+20:04:54.838 [main] INFO  com.api.test.TestUserService - AddNewUserResponseData: AddNewUserResponseData [id=11, username=null, email=null, password=null]
+20:04:54.925 [main] INFO  com.api.test.TestUserService - Status Code: 201
+20:04:54.933 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 201 Created
+20:04:54.934 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+20:04:54.937 [main] INFO  com.api.test.TestUserService - Response Time: 3031 ms
+20:04:54.938 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+20:04:54.939 [main] INFO  com.api.test.TestUserService - User ID is generated: 11
+20:04:54.949 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testAddNewUser
+
+20:04:54.956 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testAllUsers
+20:04:55.922 [main] INFO  com.api.test.TestUserService - Status Code: 200
+20:04:55.923 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+20:04:55.926 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+20:04:55.928 [main] INFO  com.api.test.TestUserService - Response Time: 920 ms
+20:04:55.932 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+20:04:55.941 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testAllUsers
+
+20:04:55.951 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testSingleUser
+20:04:56.980 [main] INFO  com.api.test.TestUserService - Status Code: 200
+20:04:56.981 [main] INFO  com.api.test.TestUserService - Status Line: HTTP/1.1 200 OK
+20:04:56.982 [main] INFO  com.api.test.TestUserService - Content-Type: application/json; charset=utf-8
+20:04:56.984 [main] INFO  com.api.test.TestUserService - Response Time: 999 ms
+20:04:56.985 [main] INFO  com.api.test.TestUserService - Server: cloudflare
+20:04:56.994 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testSingleUser
+
+20:04:57.124 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+21:02:29.455 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+21:02:29.813 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+21:02:29.895 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+21:02:38.169 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+21:02:52.938 [main] INFO  com.api.test.TestUserService - AddNewUserResponseData: AddNewUserResponseData [id=11, username=null, email=null, password=null]
+21:02:52.960 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testupdateUserPut
+
+21:02:53.242 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+21:17:52.705 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+21:17:52.905 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+21:17:52.965 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+21:17:56.295 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+21:18:06.383 [main] INFO  com.api.test.TestUserService - AddNewUserResponseData: AddNewUserResponseData [id=1, username=null, email=null, password=null]
+21:18:07.153 [main] INFO  com.api.test.TestUserService - SingleUser: io.restassured.internal.RestAssuredResponseImpl@2d237460
+21:18:07.699 [main] INFO  com.api.test.TestUserService - updateUserPutResponseData: AddNewUserResponseData [id=0, username=newName, email=New@gmail.com, password=@#$sde123]
+21:18:07.715 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testupdateUserPut
+
+21:18:07.911 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
