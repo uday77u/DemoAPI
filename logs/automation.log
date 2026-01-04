@@ -870,3 +870,616 @@ io.restassured.internal.ValidatableResponseImpl@5efeb117
 21:18:07.715 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testupdateUserPut
 
 21:18:07.911 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+15:27:14.996 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+15:27:15.187 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+15:27:15.237 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+15:27:18.617 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+15:27:24.677 [main] INFO  com.api.test.TestUserService - AddNewUserResponseData: AddNewUserResponseData [id=1, username=null, email=null, password=null]
+15:27:25.288 [main] INFO  com.api.test.TestUserService - SingleUser: io.restassured.internal.RestAssuredResponseImpl@19fbc594
+15:27:25.757 [main] INFO  com.api.test.TestUserService - updateUserPutResponseData: AddNewUserResponseData [id=0, username=newName, email=New@gmail.com, password=@#$sde123]
+15:27:25.772 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testupdateUserPut
+
+15:27:25.884 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+17:19:33.874 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+17:19:34.218 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+17:19:34.264 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+17:19:39.476 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+17:20:05.137 [main] INFO  com.api.test.TestUserService - AddNewUserResponseData: AddNewUserResponseData [id=11, username=null, email=null, password=null]
+17:20:05.712 [main] INFO  com.api.test.TestUserService - SingleUser: io.restassured.internal.RestAssuredResponseImpl@2d237460
+17:20:06.230 [main] INFO  com.api.test.TestUserService - updateUserPutResponseData: AddNewUserResponseData [id=0, username=newName, email=New@gmail.com, password=@#$sde123]
+17:20:06.238 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testupdateUserPut
+
+17:20:06.523 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+17:22:56.070 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+17:22:56.200 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+17:22:56.236 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+17:23:00.289 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+17:23:05.202 [main] INFO  com.api.test.TestUserService - AddNewUserResponseData: AddNewUserResponseData [id=1, username=null, email=null, password=null]
+17:23:05.694 [main] INFO  com.api.test.TestUserService - SingleUser: io.restassured.internal.RestAssuredResponseImpl@2d237460
+17:23:06.057 [main] INFO  com.api.test.TestUserService - updateUserPutResponseData: AddNewUserResponseData [id=0, username=newName, email=New@gmail.com, password=@#$sde123]
+17:23:06.077 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testupdateUserPut
+
+17:23:06.422 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+17:23:52.507 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+17:23:52.593 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+17:23:52.622 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+17:23:53.835 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+17:23:57.992 [main] INFO  com.api.test.TestUserService - AddNewUserResponseData: AddNewUserResponseData [id=11, username=null, email=null, password=null]
+17:23:58.526 [main] INFO  com.api.test.TestUserService - SingleUser: io.restassured.internal.RestAssuredResponseImpl@4eb9ae4d
+17:23:58.996 [main] INFO  com.api.test.TestUserService - updateUserPutResponseData: AddNewUserResponseData [id=0, username=newName, email=New@gmail.com, password=@#$sde123]
+17:23:59.012 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testupdateUserPut
+
+17:23:59.097 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+17:24:53.955 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+17:24:54.072 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+17:24:54.111 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+17:24:55.450 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+17:24:59.836 [main] INFO  com.api.test.TestUserService - AddNewUserResponseData: AddNewUserResponseData [id=11, username=null, email=null, password=null]
+17:25:00.489 [main] INFO  com.api.test.TestUserService - SingleUser: null
+17:25:00.833 [main] INFO  com.api.test.TestUserService - updateUserPutResponseData: AddNewUserResponseData [id=0, username=newName, email=New@gmail.com, password=@#$sde123]
+17:25:00.842 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testupdateUserPut
+
+17:25:00.919 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+17:33:35.115 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+17:33:35.204 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+17:33:35.228 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+17:33:36.541 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+17:33:42.861 [main] INFO  com.api.test.TestUserService - AddNewUserResponseData: AddNewUserResponseData [id=11, username=null, email=null, password=null]
+17:33:43.566 [main] INFO  com.api.test.TestUserService - SingleUser: null
+17:33:44.073 [main] INFO  com.api.test.TestUserService - Status Code: 200
+17:33:44.074 [main] INFO  com.api.test.TestUserService - Headers: Date=Sat, 03 Jan 2026 12:03:45 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+access-control-allow-origin=*
+etag=W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+x-powered-by=Express
+cf-cache-status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2Bbt%2F9kjC8YZ0wBybfOCczQrS5akHdLVzPPNSU%2BHVVRtQiUDPiQvqOysJJw4fWIm0OICwhVtW%2FB7PqKXFZn%2F5%2FHpM7dJjEtEPJJL%2BtHszm6I%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=9b825acde8893c04-BOM
+alt-svc=h3=":443"; ma=86400
+17:33:44.078 [main] INFO  com.api.test.TestUserService - Body: null
+17:33:44.415 [main] INFO  com.api.test.TestUserService - updateUserPutResponseData: AddNewUserResponseData [id=0, username=newName, email=New@gmail.com, password=@#$sde123]
+17:33:44.422 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testupdateUserPut
+
+17:33:44.545 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+12:18:59.986 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+12:19:00.090 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+12:19:00.120 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+12:19:01.340 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+12:19:06.568 [main] INFO  com.api.test.TestUserService - Sent a request for addNewUser
+12:19:07.274 [main] INFO  com.api.test.TestUserService - Get response as AddNewUserResponseData: AddNewUserResponseData [id=1, username=null, email=null, password=null]
+12:19:08.034 [main] INFO  com.api.test.TestUserService - SingleUser: {
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+12:19:08.571 [main] INFO  com.api.test.TestUserService - Status Code: 200
+12:19:08.572 [main] INFO  com.api.test.TestUserService - Headers: Date=Sun, 04 Jan 2026 06:49:08 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+access-control-allow-origin=*
+etag=W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+x-powered-by=Express
+cf-cache-status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=5j0wS7alVSEP9I3tkvUkdU09mO1n0abyDlDyj3Wzl68Eiu0K42%2BNYrTWIphb5AzNyUdq%2B8N2SautFvqdSYk5R37WiIZgW%2B1UsOCQAAkX"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=9b88cb4f18139a5e-BOM
+alt-svc=h3=":443"; ma=86400
+12:19:08.575 [main] INFO  com.api.test.TestUserService - Body: {"address":{"geolocation":{"lat":"-37.3159","long":"81.1496"},"city":"kilcoole","street":"new road","number":7682,"zipcode":"12926-3874"},"id":1,"email":"john@gmail.com","username":"johnd","password":"m38rmF$","name":{"firstname":"john","lastname":"doe"},"phone":"1-570-236-7033","__v":0}
+12:19:08.627 [main] ERROR com.api.utilities.TestListener - ❌ FAILED TEST: testupdateUserPut
+
+12:19:08.630 [main] ERROR com.api.utilities.TestListener - Reason: expected [200] but found [false]
+12:19:08.843 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+12:25:18.438 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+12:25:18.536 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+12:25:18.568 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+12:25:19.949 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+12:25:24.529 [main] INFO  com.api.test.TestUserService - Sent a request for addNewUser
+12:25:24.678 [main] INFO  com.api.test.TestUserService - Get response as AddNewUserResponseData: AddNewUserResponseData [id=11, username=null, email=null, password=null]
+12:25:25.369 [main] INFO  com.api.test.TestUserService - Print Response of SingleUser with id(11): null
+12:25:25.370 [main] INFO  com.api.test.TestUserService - Status Code: 200
+12:25:25.371 [main] INFO  com.api.test.TestUserService - Headers: Date=Sun, 04 Jan 2026 06:55:24 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+access-control-allow-origin=*
+etag=W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+x-powered-by=Express
+cf-cache-status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8WH4H9%2Fd55yGcQpycHbzaS9JdQ6WyWTq4ZuKByFw8gxsA%2FEwIEMtWFofbrP8cd47282AlRuAe%2FzX5WY8eCSeyDXVXn2U9vgPEBh6BnQqeUw%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=9b88d48148823c40-BOM
+alt-svc=h3=":443"; ma=86400
+12:25:25.372 [main] INFO  com.api.test.TestUserService - Body: null
+12:25:25.426 [main] ERROR com.api.utilities.TestListener - ❌ FAILED TEST: testupdateUserPut
+
+12:25:25.428 [main] ERROR com.api.utilities.TestListener - Reason: expected [200] but found [false]
+12:25:25.549 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+12:32:24.483 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+12:32:24.567 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+12:32:24.594 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+12:32:25.852 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+12:32:29.685 [main] INFO  com.api.test.TestUserService - Sent a request for addNewUser
+12:32:29.820 [main] INFO  com.api.test.TestUserService - Get response as AddNewUserResponseData: AddNewUserResponseData [id=1, username=null, email=null, password=null]
+12:32:30.306 [main] INFO  com.api.test.TestUserService - Sent a request for addNewUser with id(1)
+12:32:30.393 [main] INFO  com.api.test.TestUserService - Print Response of SingleUser with id(1): {
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+12:32:30.394 [main] INFO  com.api.test.TestUserService - Status Code: 200
+12:32:30.395 [main] INFO  com.api.test.TestUserService - Headers: Date=Sun, 04 Jan 2026 07:02:29 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+access-control-allow-origin=*
+etag=W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+x-powered-by=Express
+cf-cache-status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2FSHg5v372yPehHswuo5txBCCB%2B%2B1UFKjasclKxFCLTGm1dldQvo%2FlIBpiSlfYl0DkjKkCOfRCnvfA6vlEmflkBPta%2FSyd36GQBP8eBjU924%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=9b88dee28c274808-BOM
+alt-svc=h3=":443"; ma=86400
+12:32:30.397 [main] INFO  com.api.test.TestUserService - Body: {"address":{"geolocation":{"lat":"-37.3159","long":"81.1496"},"city":"kilcoole","street":"new road","number":7682,"zipcode":"12926-3874"},"id":1,"email":"john@gmail.com","username":"johnd","password":"m38rmF$","name":{"firstname":"john","lastname":"doe"},"phone":"1-570-236-7033","__v":0}
+12:32:30.421 [main] ERROR com.api.utilities.TestListener - ❌ FAILED TEST: testupdateUserPut
+
+12:32:30.424 [main] ERROR com.api.utilities.TestListener - Reason: expected [200] but found [false]
+12:32:30.510 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+12:45:46.192 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+12:45:46.291 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+12:45:46.326 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+12:45:47.528 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+12:45:51.582 [main] INFO  com.api.test.TestUserService - Sent a request for addNewUser
+12:45:51.742 [main] INFO  com.api.test.TestUserService - Get response as AddNewUserResponseData: AddNewUserResponseData [id=11, username=null, email=null, password=null]
+12:45:52.289 [main] INFO  com.api.test.TestUserService - Sent a request for addNewUser with id(11)
+12:45:52.370 [main] INFO  com.api.test.TestUserService - Print Response of SingleUser with id(11): null
+12:45:52.371 [main] INFO  com.api.test.TestUserService - Status Code: 200
+12:45:52.371 [main] INFO  com.api.test.TestUserService - Headers: Date=Sun, 04 Jan 2026 07:15:51 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+access-control-allow-origin=*
+etag=W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+x-powered-by=Express
+cf-cache-status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2F6xpr83JOZ1gFE1T2RBEicrd%2FsUaOQ2xzl8GhDT43RMq9tP2qiX8j1q51V%2BxoJFpA0hGPUekPN3rYPqx9zg4cG9uGhmkm3Dbf1eLpdTTS9g%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=9b88f2768bdeb5d1-BOM
+alt-svc=h3=":443"; ma=86400
+12:45:52.372 [main] INFO  com.api.test.TestUserService - Body: null
+12:45:53.044 [main] INFO  com.api.test.TestUserService - updateUserPutResponseData: AddNewUserResponseData [id=0, username=newName, email=New@gmail.com, password=@#$sde123]
+12:45:53.055 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testupdateUserPut
+
+12:45:53.123 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+12:48:07.981 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+12:48:08.069 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+12:48:08.095 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+12:48:09.389 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+12:48:13.270 [main] INFO  com.api.test.TestUserService - Sent a request for addNewUser
+12:48:13.408 [main] INFO  com.api.test.TestUserService - Get response as AddNewUserResponseData: AddNewUserResponseData [id=1, username=null, email=null, password=null]
+12:48:13.959 [main] INFO  com.api.test.TestUserService - Sent a request for getSingleUser with id(1)
+12:48:14.038 [main] INFO  com.api.test.TestUserService - Print Response of SingleUser with id(1): {
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+12:48:14.042 [main] INFO  com.api.test.TestUserService - Status Code: 200
+12:48:14.044 [main] INFO  com.api.test.TestUserService - Headers: Date=Sun, 04 Jan 2026 07:18:13 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+access-control-allow-origin=*
+etag=W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+x-powered-by=Express
+cf-cache-status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=aogOZdKkQG42%2FQn3JaMiUCzvH6YfwLFwj4ny7FExM4xrMKTCAI41nyZboPTKLzEff8AInLDXBrj%2B9rXr2iyquG7QQ8dyM6y5Z1O6EoqDpX4%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=9b88f5ebed723b8b-BOM
+alt-svc=h3=":443"; ma=86400
+12:48:14.046 [main] INFO  com.api.test.TestUserService - Body: {"address":{"geolocation":{"lat":"-37.3159","long":"81.1496"},"city":"kilcoole","street":"new road","number":7682,"zipcode":"12926-3874"},"id":1,"email":"john@gmail.com","username":"johnd","password":"m38rmF$","name":{"firstname":"john","lastname":"doe"},"phone":"1-570-236-7033","__v":0}
+12:48:14.518 [main] INFO  com.api.test.TestUserService - updateUserPutResponseData: AddNewUserResponseData [id=0, username=newName, email=New@gmail.com, password=@#$sde123]
+12:48:14.535 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testupdateUserPut
+
+12:48:14.626 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+12:53:50.590 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+12:53:50.683 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+12:53:50.711 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+12:53:52.093 [main] INFO  com.api.test.TestUserService - AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+12:53:57.266 [main] INFO  com.api.test.TestUserService - Sent a request for addNewUser with addNewUserRequestData
+12:53:57.399 [main] INFO  com.api.test.TestUserService - Get response as AddNewUserResponseData: AddNewUserResponseData [id=1, username=null, email=null, password=null]
+12:53:57.924 [main] INFO  com.api.test.TestUserService - Sent a request for getSingleUser with id(1)
+12:53:58.012 [main] INFO  com.api.test.TestUserService - Print Response of SingleUser with id(1): {
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+12:53:58.013 [main] INFO  com.api.test.TestUserService - Status Code: 200
+12:53:58.014 [main] INFO  com.api.test.TestUserService - Headers: Date=Sun, 04 Jan 2026 07:23:57 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+access-control-allow-origin=*
+etag=W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+x-powered-by=Express
+cf-cache-status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=jvDfxfJ%2BsdkgYpBrZ4iccvxq56BFMyz2BtsC84Q8vHY1zNaAuyLNDxSiGiJVU7kTFB3FxV5GZ95YYjeBFIWMT5SPj0WYbCXFdCXxaa26S8g%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=9b88fe51eeaa47c0-BOM
+alt-svc=h3=":443"; ma=86400
+12:53:58.016 [main] INFO  com.api.test.TestUserService - Body: {"address":{"geolocation":{"lat":"-37.3159","long":"81.1496"},"city":"kilcoole","street":"new road","number":7682,"zipcode":"12926-3874"},"id":1,"email":"john@gmail.com","username":"johnd","password":"m38rmF$","name":{"firstname":"john","lastname":"doe"},"phone":"1-570-236-7033","__v":0}
+12:53:58.421 [main] INFO  com.api.test.TestUserService - updateUserPutResponseData: AddNewUserResponseData [id=0, username=newName, email=New@gmail.com, password=@#$sde123]
+12:53:58.438 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testupdateUserPut
+
+12:53:58.530 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+13:03:19.565 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+13:03:19.709 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+13:03:19.736 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+13:03:20.981 [main] INFO  com.api.test.TestUserService - STEP 1: AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+13:03:25.305 [main] INFO  com.api.test.TestUserService - STEP 2: Sent a request for addNewUser with addNewUserRequestData
+13:03:25.537 [main] INFO  com.api.test.TestUserService - STEP 3: Get response as AddNewUserResponseData: AddNewUserResponseData [id=1, username=null, email=null, password=null]
+13:03:26.073 [main] INFO  com.api.test.TestUserService - STEP 4: Sent a request for getSingleUser with id(1)
+13:03:26.236 [main] INFO  com.api.test.TestUserService - STEP 5: Print Response of SingleUser with id(1): {
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+13:03:26.238 [main] INFO  com.api.test.TestUserService - Status Code: 200
+13:03:26.239 [main] INFO  com.api.test.TestUserService - Headers: Date=Sun, 04 Jan 2026 07:33:25 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+access-control-allow-origin=*
+etag=W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+x-powered-by=Express
+cf-cache-status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=7uB3UyajuHxfZ5NCLOOo06P7I%2Bre7uFfqQHfWOHJiXZcV1XZjzo%2FdgygPTKrSUNXa%2BaMH77K6CT%2FcrVBvWE0HhlWYufhXD7c0h%2FajVt%2BbKg%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=9b890c30d8a83a63-BOM
+alt-svc=h3=":443"; ma=86400
+13:03:26.242 [main] INFO  com.api.test.TestUserService - Body: {"address":{"geolocation":{"lat":"-37.3159","long":"81.1496"},"city":"kilcoole","street":"new road","number":7682,"zipcode":"12926-3874"},"id":1,"email":"john@gmail.com","username":"johnd","password":"m38rmF$","name":{"firstname":"john","lastname":"doe"},"phone":"1-570-236-7033","__v":0}
+13:03:26.638 [main] INFO  com.api.test.TestUserService - updateUserPutResponseData: AddNewUserResponseData [id=0, username=newName, email=New@gmail.com, password=@#$sde123]
+13:03:26.654 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testupdateUserPut
+
+13:03:26.870 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+13:16:28.521 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+13:16:28.614 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+13:16:28.640 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+13:16:29.865 [main] INFO  com.api.test.TestUserService - STEP 1: AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+13:16:34.830 [main] INFO  com.api.test.TestUserService - STEP 2: Sent a request for addNewUser with addNewUserRequestData
+13:16:35.052 [main] INFO  com.api.test.TestUserService - STEP 3: Get response as AddNewUserResponseData: AddNewUserResponseData [id=1, username=null, email=null, password=null]
+13:16:35.596 [main] INFO  com.api.test.TestUserService - STEP 4: Sent a request for getSingleUser with id(1)
+13:16:35.775 [main] INFO  com.api.test.TestUserService - STEP 5: Print Response of SingleUser with id(1): {
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+13:16:35.776 [main] INFO  com.api.test.TestUserService - **singleUserResponse logs**
+13:16:35.777 [main] INFO  com.api.test.TestUserService - Status Code: 200
+13:16:35.778 [main] INFO  com.api.test.TestUserService - Headers: Date=Sun, 04 Jan 2026 07:46:35 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+access-control-allow-origin=*
+etag=W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+x-powered-by=Express
+cf-cache-status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qbwK4dZ5Qflkio13X0Kbhh8dYNTCa2WGa4KZl1q5BUpsKqIT%2BrGHiZsUJHTRgEZe%2FcLsy8%2FIpCrv%2FJ5WfQLqDWU3tkgXURGk3v5TsrlY42k%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=9b891f776ed33a3b-BOM
+alt-svc=h3=":443"; ma=86400
+13:16:35.781 [main] INFO  com.api.test.TestUserService - Body: {"address":{"geolocation":{"lat":"-37.3159","long":"81.1496"},"city":"kilcoole","street":"new road","number":7682,"zipcode":"12926-3874"},"id":1,"email":"john@gmail.com","username":"johnd","password":"m38rmF$","name":{"firstname":"john","lastname":"doe"},"phone":"1-570-236-7033","__v":0}
+13:16:35.785 [main] INFO  com.api.test.TestUserService - STEP 6: UpdateUserPutRequestData is created: AddNewUserRequestData [username=newName, email=New@gmail.com, password=@#$sde123]
+13:16:36.174 [main] INFO  com.api.test.TestUserService - STEP 7: Sent a request for updateUserPut with updateUserPutRequestData and id(1)
+13:16:36.192 [main] INFO  com.api.test.TestUserService - STEP 8: Get response as updateUserPutResponseData: AddNewUserResponseData [id=0, username=newName, email=New@gmail.com, password=@#$sde123]
+13:16:36.208 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testupdateUserPut
+
+13:16:36.317 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+15:29:37.268 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+15:29:37.409 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+15:29:37.457 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+15:29:38.098 [main] INFO  com.api.test.TestUserService - STEP 1: AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+15:29:41.398 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST METHOD : POST
+15:29:41.405 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST URI    : https://fakestoreapi.com/users/
+15:29:41.405 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST HEADERS: Accept=*/*
+Content-Type=application/json
+15:29:41.424 [main] ERROR com.api.utilities.TestListener - ❌ FAILED TEST: testupdateUserPut
+
+15:29:41.425 [main] ERROR com.api.utilities.TestListener - Reason: class java.lang.String cannot be cast to class [C (java.lang.String and [C are in module java.base of loader 'bootstrap')
+15:29:41.655 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+15:37:15.431 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+15:37:15.469 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+15:37:15.491 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+15:37:15.851 [main] INFO  com.api.test.TestUserService - STEP 1: AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+15:37:17.843 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST METHOD : POST
+15:37:17.857 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST URI    : https://fakestoreapi.com/users/
+15:37:17.858 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST HEADERS: Accept=*/*
+Content-Type=application/json
+15:37:17.859 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST BODY  : {"username":"abcd","email":"Asdf@dfg.com","password":"@werf%"}
+15:37:20.554 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE STATUS: 201
+15:37:20.746 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE BODY  : {
+    "id": 1
+}
+15:37:20.747 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE TIME  : 2926 ms
+15:37:20.751 [main] INFO  com.api.test.TestUserService - STEP 2: Sent a request for addNewUser with addNewUserRequestData
+15:37:20.887 [main] INFO  com.api.test.TestUserService - STEP 3: Get response as AddNewUserResponseData: AddNewUserResponseData [id=1, username=null, email=null, password=null]
+15:37:20.888 [main] INFO  com.api.test.TestUserService - User created with ID: 1
+15:37:20.901 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST METHOD : GET
+15:37:20.905 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST URI    : https://fakestoreapi.com/users/1
+15:37:20.906 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST HEADERS: Accept=*/*
+Content-Type=application/json
+15:37:20.907 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST BODY  : {"username":"abcd","email":"Asdf@dfg.com","password":"@werf%"}
+15:37:22.086 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE STATUS: 200
+15:37:22.103 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE BODY  : {
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+15:37:22.106 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE TIME  : 1204 ms
+15:37:22.108 [main] INFO  com.api.test.TestUserService - STEP 4: Sent a request for getSingleUser with id(1)
+15:37:22.114 [main] INFO  com.api.test.TestUserService - STEP 5: Print Response of SingleUser with id(1): {
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+15:37:22.119 [main] INFO  com.api.test.TestUserService - STEP 6: UpdateUserPutRequestData is created: AddNewUserRequestData [username=newName, email=New@gmail.com, password=@#$sde123]
+15:37:22.173 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST METHOD : PUT
+15:37:22.176 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST URI    : https://fakestoreapi.com/users/1
+15:37:22.177 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST HEADERS: Accept=*/*
+Content-Type=application/json
+15:37:22.177 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST BODY  : {"username":"newName","email":"New@gmail.com","password":"@#$sde123"}
+15:37:22.599 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE STATUS: 200
+15:37:22.601 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE BODY  : {
+    "username": "newName",
+    "email": "New@gmail.com",
+    "password": "@#$sde123"
+}
+15:37:22.601 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE TIME  : 428 ms
+15:37:22.602 [main] INFO  com.api.test.TestUserService - STEP 7: Sent a request for updateUserPut with updateUserPutRequestData and id(1)
+15:37:22.607 [main] INFO  com.api.test.TestUserService - STEP 8: Get response as updateUserPutResponseData: AddNewUserResponseData [id=0, username=newName, email=New@gmail.com, password=@#$sde123]
+15:37:22.613 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testupdateUserPut
+
+15:37:22.689 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test
+15:59:08.989 [main] INFO  com.api.utilities.TestListener - 🚀 Starting TestNG Suite: Default test
+15:59:09.123 [main] DEBUG com.api.test.TestUserService - **** Logging test cases started ****
+15:59:09.210 [main] INFO  com.api.utilities.TestListener - 🔹 STARTING TEST: testupdateUserPut
+15:59:10.244 [main] INFO  com.api.test.TestUserService - STEP 1: AddNewUserRequestData is created: AddNewUserRequestData [username=abcd, email=Asdf@dfg.com, password=@werf%]
+15:59:16.352 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST METHOD : POST
+15:59:16.405 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST URI    : https://fakestoreapi.com/users/
+15:59:16.408 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST HEADERS: Accept=*/*
+Content-Type=application/json
+15:59:16.409 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST BODY  : {"username":"abcd","email":"Asdf@dfg.com","password":"@werf%"}
+15:59:22.491 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE STATUS: 201
+15:59:22.855 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE BODY  : {
+    "id": 1
+}
+15:59:22.856 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE TIME  : 6581 ms
+15:59:22.863 [main] INFO  com.api.test.TestUserService - STEP 2: Sent a request for addNewUser with addNewUserRequestData
+15:59:23.430 [main] INFO  com.api.test.TestUserService - STEP 3: Get response as AddNewUserResponseData: AddNewUserResponseData [id=1, username=null, email=null, password=null]
+15:59:23.431 [main] INFO  com.api.test.TestUserService - User created with ID: 1
+15:59:23.520 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST METHOD : GET
+15:59:23.539 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST URI    : https://fakestoreapi.com/users/1
+15:59:23.540 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST HEADERS: Accept=*/*
+Content-Type=application/json
+15:59:23.542 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST BODY  : {"username":"abcd","email":"Asdf@dfg.com","password":"@werf%"}
+15:59:24.556 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE STATUS: 200
+15:59:24.572 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE BODY  : {
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+15:59:24.573 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE TIME  : 1053 ms
+15:59:24.575 [main] INFO  com.api.test.TestUserService - STEP 4: Sent a request for getSingleUser with id(1)
+15:59:24.586 [main] INFO  com.api.test.TestUserService - STEP 5: Print Response of SingleUser with id(1): {
+    "address": {
+        "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+    },
+    "id": 1,
+    "email": "john@gmail.com",
+    "username": "johnd",
+    "password": "m38rmF$",
+    "name": {
+        "firstname": "john",
+        "lastname": "doe"
+    },
+    "phone": "1-570-236-7033",
+    "__v": 0
+}
+15:59:24.609 [main] INFO  com.api.test.TestUserService - STEP 6: UpdateUserPutRequestData is created: AddNewUserRequestData [username=newName, email=New@gmail.com, password=@#$sde123]
+15:59:24.684 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST METHOD : PUT
+15:59:24.694 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST URI    : https://fakestoreapi.com/users/1
+15:59:24.695 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST HEADERS: Accept=*/*
+Content-Type=application/json
+15:59:24.697 [main] INFO  com.api.filters.ApiLoggingFilter - REQUEST BODY  : {"username":"newName","email":"New@gmail.com","password":"@#$sde123"}
+15:59:26.977 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE STATUS: 200
+15:59:26.983 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE BODY  : {
+    "username": "newName",
+    "email": "New@gmail.com",
+    "password": "@#$sde123"
+}
+15:59:26.984 [main] INFO  com.api.filters.ApiLoggingFilter - RESPONSE TIME  : 2300 ms
+15:59:26.987 [main] INFO  com.api.test.TestUserService - STEP 7: Sent a request for updateUserPut with updateUserPutRequestData and id(1)
+15:59:27.016 [main] INFO  com.api.test.TestUserService - STEP 8: Get response as updateUserPutResponseData: AddNewUserResponseData [id=0, username=newName, email=New@gmail.com, password=@#$sde123]
+15:59:27.033 [main] INFO  com.api.utilities.TestListener - ✅ PASSED TEST: testupdateUserPut
+
+15:59:27.246 [main] INFO  com.api.utilities.TestListener - 🏁 Finished TestNG Suite: Default test

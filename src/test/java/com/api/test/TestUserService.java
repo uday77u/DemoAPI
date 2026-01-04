@@ -1,5 +1,6 @@
 package com.api.test;
 
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import org.testng.annotations.Listeners;
@@ -73,23 +74,34 @@ public class TestUserService extends BaseTest{
 	@Test
 	public void testupdateUserPut() {
 		UsersService usersService=new UsersService();
+		
 		AddNewUserRequestData addNewUserRequestData=new AddNewUserRequestData("abcd", "Asdf@dfg.com", "@werf%");
-		logger.info("AddNewUserRequestData is created: "+addNewUserRequestData);
+		logger.info("STEP 1: AddNewUserRequestData is created: "+addNewUserRequestData);
 		
 		 Response response=usersService.addNewUser(addNewUserRequestData);
+		 logger.info("STEP 2: Sent a request for addNewUser with addNewUserRequestData");
+		 
 		 AddNewUserResponseData addNewUserResponseData=response.as(AddNewUserResponseData.class);
-		 logger.info("AddNewUserResponseData: "+addNewUserResponseData);
+		 logger.info("STEP 3: Get response as AddNewUserResponseData: "+addNewUserResponseData);
 		 
 		 int id = addNewUserResponseData.getId();
-		 logger.info("SingleUser: "+usersService.getSingleUser(id));
+		 logger.info("User created with ID: " + id);
 		 
+		 Response singleUserResponse = usersService.getSingleUser(id);
+		 logger.info("STEP 4: Sent a request for getSingleUser with id("+id+")");
+
+		 logger.info("STEP 5: Print Response of SingleUser with id("+id+"): "+singleUserResponse.asPrettyString());
+
 		 UpdateUserPutRequestData updateUserPutRequestData=new UpdateUserPutRequestData("newName", "New@gmail.com", "@#$sde123");
-		 response=usersService.updateUserPut(updateUserPutRequestData, id);
-		 UpdateUserPutResponseData updateUserPutResponseData=response.as(UpdateUserPutResponseData.class);
-		 logger.info("updateUserPutResponseData: "+updateUserPutResponseData);
+		 logger.info("STEP 6: UpdateUserPutRequestData is created: "+updateUserPutRequestData);
 		 
- 
+		 response=usersService.updateUserPut(updateUserPutRequestData, id);
+		 logger.info("STEP 7: Sent a request for updateUserPut with updateUserPutRequestData and id("+id+")");
+		 
+		 UpdateUserPutResponseData updateUserPutResponseData=response.as(UpdateUserPutResponseData.class);
+		 logger.info("STEP 8: Get response as updateUserPutResponseData: "+updateUserPutResponseData);
 		
+		 
 	}
 	
 }

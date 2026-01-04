@@ -5,8 +5,9 @@
     <classes>
       <class name="com.api.test.TestUserService">
         <methods>
+          <include name="setup1"/>
+          <include name="testupdateUserPut"/>
           <include name="setup"/>
-          <include name="testAddNewUser"/>
         </methods>
       </class> <!-- com.api.test.TestUserService -->
     </classes>
